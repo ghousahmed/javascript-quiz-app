@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <span>User: 123456 <br>
+    <a href="index.html">LogOut</a></span>
+    <h1>Javascript Quiz App</h1>
+    <h5 id="war">WARNING: Do Not Refresh A Page</h5>
+
+    <div id="quizContainer" class="container">
+        <center>
+            <span Id="timer">  02:60</span>
+
+            <div id="question" class="question"></div>
+            <br />
+            <br />
+            <label class="option"><input type="radio" name="option" value="1" /><span id="option1"></span></label>
+            <br />
+            <label class="option"><input type="radio" name="option" value="2" /><span id="option2"></span></label>
+            <br />
+            <label class="option"><input type="radio" name="option" value="3" /><span id="option3"></span></label>
+            <br />
+            <button id="buttonbox" class="next-btn" onclick="loadNQuestion();">Next Question</button>
+    </div>
+    <div id="result" class="container result" style="display: none;"></div>
+    <h2 id="marks" style="display: none;"></h2>
+    <h2 id="timeout" style="display: none;"></h2>
+
+
+    <button id="resul" class="container result" style="display: none;" onclick=go()>Start Again</button>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

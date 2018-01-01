@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "game",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

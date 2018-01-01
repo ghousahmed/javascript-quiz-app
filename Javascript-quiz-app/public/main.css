@@ -1,0 +1,61 @@
+/* Bordered form */
+body{
+    text-align: center;
+    background-color: gainsboro;
+}
+body{
+    background-image:  url("images (1).jpg");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+     background-size: 100% 100%;
+     color:  white;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: transparent;
+    border: 3px solid wheat;
+    color: white;
+    
+}
+input:focus{
+    background-color: wheat;
+    border: 3px solid wheat;
+    color: black;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: transparent;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid lightskyblue;
+    
+    width: 50%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.container{
+    width: 50%;
+    height: 60%;
+    border: 2px solid wheat;
+    margin: 0 auto;
+    border-radius: 10%;
+    background-color: transparent;
+}
